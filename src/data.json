@@ -1,0 +1,37 @@
+
+{"data":
+
+[
+    
+    {
+      "name": "Cement",
+      "uom": "Bags",
+      "qty": 10
+    },
+    {
+      "name": "Steel",
+      "uom": "Kgs",
+      "qty": 10,
+      "price":300
+    },
+    {
+      "name": "Glass",
+      "uom": "Nos",
+      "qty": 10,
+      "price":400
+    },
+    {
+      "name": "Pipe",
+      "uom": "Mtrs",
+      "qty": 10,
+      "price":200
+    },
+    {
+      "name": "Wooden door",
+      "uom": "Nos",
+      "qty": 2,
+      "price":100
+    }
+  ]
+}
+  
