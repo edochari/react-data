@@ -1,32 +1,39 @@
   
-{"data":
+{
+  "result":
 
 [
     
     {
+      "sno":1,
       "name": "Cement",
       "uom": "Bags",
-      "qty": 10
+      "qty": 10,
+      "price":1000
     },
     {
+      "sno":2,
       "name": "Steel",
       "uom": "Kgs",
       "qty": 10,
       "price":300
     },
     {
+      "sno":3,
       "name": "Glass",
       "uom": "Nos",
       "qty": 10,
       "price":400
     },
     {
+      "sno":4,
       "name": "Pipe",
       "uom": "Mtrs",
       "qty": 10,
       "price":200
     },
     {
+      "sno":5,
       "name": "Wooden door",
       "uom": "Nos",
       "qty": 2,
