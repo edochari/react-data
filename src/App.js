@@ -19,6 +19,7 @@ const App=()=> {
   return (
     <div>
      <h1>Data</h1>
+     <p>Click on get Data</p>
      <button onClick={getData}>GET DATA</button>
      <p>current data is</p>
      <OutputComponent items={Data}> </OutputComponent>
