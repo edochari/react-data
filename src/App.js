@@ -9,8 +9,8 @@ const App=()=> {
  const [Data,setData] =useState('');
 
   const getData=()=>{
-    let url=" https://github.com/edochari/react-data/blob/master/data.json";
-    fetch(url).then((response)=>{console.log("response",response.data);
+    let url=" https://my-json-server.typicode.com/edochari/react-data/result";
+    axios.get(url).then((response)=>{console.log("response",response.data);
     setData( response.data); 
   })
    
