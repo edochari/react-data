@@ -9,7 +9,7 @@ const App=()=> {
  const [Data,setData] =useState('');
 
   const getData=()=>{
-    let url=" https://github.com/edochari/react-data/blob/master/data.json/result";
+    let url=" https://github.com/edochari/react-data/blob/master/data.json";
     axios.get(url).then((response)=>{console.log("response",response.data);
     setData( response.data); 
   })
